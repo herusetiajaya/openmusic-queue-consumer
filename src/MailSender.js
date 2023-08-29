@@ -16,11 +16,11 @@ class MailSender {
     const message = {
       from: 'OpenMusic API',
       to: targetEmail,
-      subject: 'Ekspor Playlist Songs',
-      text: 'Terlampir hasil dari ekspor playlist songs',
+      subject: 'Ekspor Playlist',
+      text: 'Terlampir hasil dari ekspor playlist',
       attachments: [
         {
-          filename: 'playlistsongs.json',
+          filename: 'playlist.json',
           content,
         },
       ],
